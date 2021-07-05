@@ -496,6 +496,7 @@ typedef NS_ENUM(NSInteger, ImagePickerClassType) { UIImagePickerClassType, PHPic
   if (!self.result) {
     return;
   }
+  result(nil);
   self.result(nil);
   self.result = nil;
   _arguments = nil;
